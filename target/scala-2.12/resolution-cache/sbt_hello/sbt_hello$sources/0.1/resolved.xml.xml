@@ -4,7 +4,7 @@
 		module="sbt_hello$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190902140731"
+		publication="20190916222206"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

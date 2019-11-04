@@ -2185,28 +2185,22 @@
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.9!akka-parsing_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.9!akka-http_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.9!akka-http-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.25!akka-protobuf_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.25!akka-stream_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.8!ssl-config-core_2.12.jar(src)
-[debug] 		tried /Users/hewro/.ivy2/local/ch.megard/akka-http-cors_2.12/0.4.1/srcs/akka-http-cors_2.12-sources.jar
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.25!akka-actor_2.12.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/ch/megard/akka-http-cors_2.12/0.4.1/akka-http-cors_2.12-0.4.1-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] ch.megard#akka-http-cors_2.12;0.4.1!akka-http-cors_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.25!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.8!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[info] downloading https://repo1.maven.org/maven2/ch/megard/akka-http-cors_2.12/0.4.1/akka-http-cors_2.12-0.4.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/megard/akka-http-cors_2.12/0.4.1/akka-http-cors_2.12-0.4.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/megard/akka-http-cors_2.12/0.4.1/akka-http-cors_2.12-0.4.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/ch/megard/akka-http-cors_2.12/0.4.1/akka-http-cors_2.12-0.4.1-sources.jar
-[info] 	[SUCCESSFUL ] ch.megard#akka-http-cors_2.12;0.4.1!akka-http-cors_2.12.jar(src) (1004ms)
-[debug] :: resolution report :: resolve 132ms :: artifacts dl 1008ms
+[debug] :: resolution report :: resolve 168ms :: artifacts dl 6ms
 [debug] 	report for sbt_hello#sbt_hello$sources;0.1 compile produced in /Users/hewro/Documents/GitHub/notebook-scala/target/scala-2.12/resolution-cache/reports/sbt_hello-sbt_hello$sources-compile.xml
 [debug] 	report for sbt_hello#sbt_hello$sources;0.1 runtime produced in /Users/hewro/Documents/GitHub/notebook-scala/target/scala-2.12/resolution-cache/reports/sbt_hello-sbt_hello$sources-runtime.xml
 [debug] 	report for sbt_hello#sbt_hello$sources;0.1 test produced in /Users/hewro/Documents/GitHub/notebook-scala/target/scala-2.12/resolution-cache/reports/sbt_hello-sbt_hello$sources-test.xml
@@ -2218,4 +2212,4 @@
 [debug] 	report for sbt_hello#sbt_hello$sources;0.1 plugin produced in /Users/hewro/Documents/GitHub/notebook-scala/target/scala-2.12/resolution-cache/reports/sbt_hello-sbt_hello$sources-plugin.xml
 [debug] 	report for sbt_hello#sbt_hello$sources;0.1 pom produced in /Users/hewro/Documents/GitHub/notebook-scala/target/scala-2.12/resolution-cache/reports/sbt_hello-sbt_hello$sources-pom.xml
 [debug] 	report for sbt_hello#sbt_hello$sources;0.1 scala-tool produced in /Users/hewro/Documents/GitHub/notebook-scala/target/scala-2.12/resolution-cache/reports/sbt_hello-sbt_hello$sources-scala-tool.xml
-[debug] 	resolve done (132ms resolve - 1008ms download)
+[debug] 	resolve done (168ms resolve - 6ms download)
